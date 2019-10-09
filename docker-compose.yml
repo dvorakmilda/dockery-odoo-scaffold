@@ -29,7 +29,7 @@ x-odoo:
   - ./cfg.d:/opt/odoo/cfg.d:ro  # ${ODOO_RC}
   # Host paths (source)
   - ./src:/opt/odoo/src:ro  # ${ODOO_SRC}
-  - ./vendor:/opt/odoo/vendor:ro  # ${ODOO_VENDOR}
+  - ./vendor:/opt/odoo/vendor  # ${ODOO_VENDOR}
   # Current migration instructions
   - ./migration.yaml:/opt/odoo/migration.yaml:ro  # ${ODOO_MIG}
   - ./migration.d:/opt/odoo/migration.d:ro  # ${ODOO_MIG_DIR}
